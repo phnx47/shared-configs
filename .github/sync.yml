@@ -1,0 +1,7 @@
+phnx47/PKGBUILDs:
+  - source: github/
+    dest: .github/
+
+phnx47/fingerprint-builder-net:
+  - source: github/
+    dest: .github/
