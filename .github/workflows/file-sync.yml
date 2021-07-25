@@ -16,3 +16,4 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           ASSIGNEES: phnx47
+          PR_LABELS: automerge
