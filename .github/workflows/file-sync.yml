@@ -17,3 +17,5 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           ASSIGNEES: phnx47
           PR_LABELS: automerge
+          GIT_USERNAME: github-actions[bot]
+          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
