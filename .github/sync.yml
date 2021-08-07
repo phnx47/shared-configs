@@ -1,7 +1,8 @@
-phnx47/PKGBUILDs:
-  - source: github/
-    dest: .github/
-
-phnx47/fingerprint-builder-net:
-  - source: github/
-    dest: .github/
+group:
+  repos: |
+    phnx47/PKGBUILDs
+    phnx47/fingerprint-builder-net
+    phnx47/dapper-repositories
+  files:
+    - source: github/
+      dest: .github/
