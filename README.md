@@ -1,3 +1,3 @@
 # Sync Files
 
-Techical synhronize files between repositories
+Synhronize files between repositories
