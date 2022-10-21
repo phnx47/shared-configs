@@ -1,4 +1,4 @@
-name: 📁 Sync Files
+name: 📁 Sync Files on 'push'
 
 on:
   push:
