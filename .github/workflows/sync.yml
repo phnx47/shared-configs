@@ -21,5 +21,5 @@ jobs:
           COMMIT_PREFIX: "chore:"
           BRANCH_PREFIX: "sync/SOURCE_REPO_NAME"
           ORIGINAL_MESSAGE: true
-          GIT_USERNAME: github-actions[bot]
-          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_USERNAME: phnx47[bot]
+          GIT_EMAIL: 78849906+phnx47-bot@users.noreply.github.com
