@@ -14,7 +14,7 @@ jobs:
       - name: 🚚 Checkout
         uses: actions/checkout@v3
       - name: 🔄 Sync Process
-        uses: BetaHuhn/repo-file-sync-action@v1
+        uses: phnx47/repo-file-sync-action@master
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           ASSIGNEES: phnx47
