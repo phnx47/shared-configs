@@ -4,10 +4,7 @@ group:
       - source: common/
         dest: .github/
     repos: |
-      phnx47/pkgbuilds
-      phnx47/x-report
-      phnx47/fingerprint-builder-net
-      phnx47/dapper-repositories
+      phnx47/harvest-report
   # .NET configs
   - files:
       - source: dotnet/renovate.json
