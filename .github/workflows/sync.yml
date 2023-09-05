@@ -1,4 +1,4 @@
-name: 📁 Sync Files
+name: Sync Files
 
 on:
   push:
@@ -8,12 +8,12 @@ on:
 
 jobs:
   sync-files:
-    name: 🔄 Sync Files
+    name: Sync Files
     runs-on: ubuntu-22.04
     steps:
-      - name: 🚚 Checkout
+      - name: Checkout
         uses: actions/checkout@v3
-      - name: 🔄 Sync Process
+      - name: Sync Process
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
