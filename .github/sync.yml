@@ -14,6 +14,8 @@ group:
         dest: .github/renovate.json
       - source: dotnet/.editorconfig
         dest: .editorconfig
+      - source: dotnet/Directory.Build.props
+        dest: Directory.Build.props
     repos: |
       phnx47/fingerprint-builder-net
       phnx47/dapper-repositories
