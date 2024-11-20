@@ -1,8 +1,12 @@
 group:
-  # CODEOWNERS + FUNDING.yml
+  # Common configs
   - files:
-      - source: common/
-        dest: .github/
+      - source: common/CODEOWNERS
+        dest: .github/CODEOWNERS
+      - source: common/FUNDING.yml
+        dest: .github/FUNDING.yml
+      - source: common/automerge.yml
+        dest: .github/workflows/automerge.yml
     repos: |
       phnx47/aurm
       phnx47/hvst-cli
