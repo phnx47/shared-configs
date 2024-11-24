@@ -5,8 +5,8 @@ group:
         dest: .github/CODEOWNERS
       - source: common/FUNDING.yml
         dest: .github/FUNDING.yml
-      - source: common/automerge.yml
-        dest: .github/workflows/automerge.yml
+      - source: common/labeled.yml
+        dest: .github/workflows/labeled.yml
     repos: |
       phnx47/aurm
       phnx47/hvst-cli
