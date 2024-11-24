@@ -18,6 +18,7 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           ASSIGNEES: phnx47
+          COMMIT_PREFIX: "sync:"
           BRANCH_PREFIX: "sync/SOURCE_REPO_NAME"
           ORIGINAL_MESSAGE: true
           GIT_USERNAME: phnx47[bot]
