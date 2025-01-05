@@ -25,5 +25,6 @@ jobs:
           BRANCH_PREFIX: "sync/SOURCE_REPO_NAME"
           CONFIG_PATH: .github/sync-config.yml
           ORIGINAL_MESSAGE: true
+          OVERWRITE_EXISTING_PR: false
           GIT_USERNAME: phnx47[bot]
           GIT_EMAIL: 78849906+phnx47-bot@users.noreply.github.com
