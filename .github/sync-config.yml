@@ -8,9 +8,9 @@ group:
       - source: common/labeled.yml
         dest: .github/workflows/labeled.yml
     repos: |
-      phnx47/aurm
+      phnx47/pkgbuilds
       phnx47/hvst-cli
-      phnx47/fingerprint-builder-net
+      phnx47/fingerprint-builder
       phnx47/dapper-repositories
   # .NET configs
   - files:
@@ -21,5 +21,5 @@ group:
       - source: dotnet/Directory.Build.props
         dest: Directory.Build.props
     repos: |
-      phnx47/fingerprint-builder-net
+      phnx47/fingerprint-builder
       phnx47/dapper-repositories
