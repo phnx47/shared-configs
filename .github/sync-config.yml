@@ -18,6 +18,8 @@ group:
         dest: .github/renovate.json
       - source: dotnet/root.editorconfig
         dest: .editorconfig
+      - source: dotnet/tests.editorconfig
+        dest: tests/.editorconfig
       - source: dotnet/Directory.Build.props
         dest: Directory.Build.props
     repos: |
