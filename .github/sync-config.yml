@@ -16,7 +16,7 @@ group:
   - files:
       - source: dotnet/renovate.json
         dest: .github/renovate.json
-      - source: dotnet/.editorconfig
+      - source: dotnet/root.editorconfig
         dest: .editorconfig
       - source: dotnet/Directory.Build.props
         dest: Directory.Build.props
